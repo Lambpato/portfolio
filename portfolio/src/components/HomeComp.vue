@@ -3,5 +3,6 @@ import IntroComp from './IntroComp.vue'
 </script>
 
 <template>
-  <IntroComp />
+  <IntroComp -section="About Me" />
+  <h1>Hobbies</h1>
 </template>
