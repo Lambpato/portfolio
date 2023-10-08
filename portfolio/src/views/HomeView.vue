@@ -1,11 +1,9 @@
 <script setup lang="ts">
 import HomeComp from '@/components/HomeComp.vue'
-import AboutMe from './AboutMe.vue'
 </script>
 
 <template>
   <main>
-    <AboutMe />
+    <HomeComp />
   </main>
 </template>
-<!-- <HomeComp />s -->
