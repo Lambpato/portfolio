@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/HomeComp.vue'
+import HomeComp from '@/components/HomeComp.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <HomeComp />
   </main>
 </template>
