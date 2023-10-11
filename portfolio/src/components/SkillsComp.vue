@@ -122,23 +122,21 @@ const redirectToWebsite = (url: string) => {
 </script>
 
 <template>
-  <div>
-    <header class="p-4">
-      <h1 class="text-center text-7xl">Skills</h1>
-    </header>
-    <div id="icons" class="grid grid-cols-2 lg:grid-cols-4 gap-y-4">
+  <header class="p-4">
+    <h1 class="text-center text-7xl">Skills</h1>
+  </header>
+  <div id="icons" class="grid grid-cols-2 lg:grid-cols-4 gap-y-4">
+    <div
+      v-for="icon in icons"
+      :key="icon.id"
+      @click="redirectToWebsite(icon.siteUrl)"
+      class="flex justify-center items-center"
+    >
       <div
-        v-for="icon in icons"
-        :key="icon.id"
-        @click="redirectToWebsite(icon.siteUrl)"
-        class="flex justify-center items-center"
+        class="flex flex-col justify-center items-center w-2/4 lg:h-[160px] border-4 rounded-xl border-slate-200 cursor-pointer"
       >
-        <div
-          class="flex flex-col justify-center items-center w-2/4 lg:h-[160px] border-4 rounded-xl border-slate-200 cursor-pointer"
-        >
-          <img :src="icon.imgUrl" :alt="icon.name" class="w-24 p-4" />
-          <h1 class="font-bold text-xs lg:text-lg">{{ icon.name }}</h1>
-        </div>
+        <img :src="icon.imgUrl" :alt="icon.name" class="w-24 p-4" />
+        <h1 class="font-bold text-xs lg:text-lg">{{ icon.name }}</h1>
       </div>
     </div>
   </div>
