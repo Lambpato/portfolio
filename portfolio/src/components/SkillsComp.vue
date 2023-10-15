@@ -51,13 +51,13 @@ const icons = [
   {
     id: 9,
     name: 'Tailwind',
-    imgUrl: '/src/assets/icons/tailwind.png',
+    imgUrl: './src/assets/icons/tailwind.png',
     siteUrl: 'https://tailwindcss.com/'
   },
   {
     id: 10,
     name: 'Express',
-    imgUrl: '/src/assets/icons/express.png',
+    imgUrl: './src/assets/icons/express.png',
     siteUrl: 'https://expressjs.com/'
   },
   {
