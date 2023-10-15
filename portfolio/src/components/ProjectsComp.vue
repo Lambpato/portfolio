@@ -9,13 +9,13 @@ const projects = [
   {
     id: 1,
     name: 'LSP',
-    thumbnail: '/src/assets/thumbnails/lsp.png',
+    thumbnail: '/thumbnails/lsp.png',
     href: '/projects/LSP'
   },
   {
     id: 2,
     name: 'Weather Report',
-    thumbnail: '/src/assets/thumbnails/weather-report.png',
+    thumbnail: '/thumbnails/weather-report.png',
     href: '/projects/Weather-Report'
   }
 ]
