@@ -3,12 +3,12 @@ const projects = [
   {
     id: 1,
     name: 'Weather Report',
-    thumbnail: '/src/components/thumbnails/weather-report.png'
+    thumbnail: '/src/assets/thumbnails/weather-report.png'
   },
   {
     id: 2,
     name: 'LSP',
-    thumbnail: '/src/components/thumbnails/lsp.png'
+    thumbnail: '/src/assets/thumbnails/lsp.png'
   }
 ]
 </script>

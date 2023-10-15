@@ -21,7 +21,9 @@ import { RouterLink } from 'vue-router'
     </header>
     <div class="grid grid-rows-2 gap-14">
       <div class="grid lg:grid-cols-2 w-auto">
-        <div><img src="./images/sewing.jpeg" alt="Sewing" class="rounded-xl lg:w-72" /></div>
+        <div>
+          <img src="../assets/images/sewing.jpeg" alt="Sewing" class="rounded-xl lg:w-72" />
+        </div>
         <p>
           Sewing is one of my favorite go to hobbies to take a break from coding. While coding makes
           me think all logically, sewing lets my creative side flow, and it's a hands-on, an
@@ -33,7 +35,7 @@ import { RouterLink } from 'vue-router'
         </p>
       </div>
       <div class="grid lg:grid-cols-2 w-auto">
-        <div><img src="./images/gamer.jpeg" alt="Gaming" class="rounded-xl lg:w-72" /></div>
+        <div><img src="../assets/images/gamer.jpeg" alt="Gaming" class="rounded-xl lg:w-72" /></div>
         <p>
           Gaming is my go to when I need a coding break and dont have any sewing projects in mind.
           Coding is all about being precise and logical, but FPS's is just pure fun. When I turn on
