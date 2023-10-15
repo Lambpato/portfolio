@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutMe from '../views/AboutMe.vue'
 import LSPView from '../views/LSPView.vue'
+import WRView from '../views/WRView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -24,7 +25,7 @@ const router = createRouter({
     {
       path: '/projects/weather-report',
       name: 'Weather Report',
-      component: HomeView
+      component: WRView
     }
   ]
 })
