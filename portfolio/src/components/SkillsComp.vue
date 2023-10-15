@@ -3,115 +3,115 @@ const icons = [
   {
     id: 1,
     name: 'React',
-    imgUrl: '/src/assets/icons/react.png',
+    imgUrl: '../assets/icons/react.png',
     siteUrl: 'https://react.dev/'
   },
   {
     id: 2,
     name: 'Next.js',
-    imgUrl: '/src/assets/icons/next-js.png',
+    imgUrl: '../assets/icons/next-js.png',
     siteUrl: 'https://nextjs.org/'
   },
   {
     id: 3,
     name: 'Vue.js',
-    imgUrl: '/src/assets/icons/vue.png',
+    imgUrl: '../assets/icons/vue.png',
     siteUrl: 'https://vuejs.org/'
   },
   {
     id: 4,
     name: 'TypeScript',
-    imgUrl: '/src/assets/icons/typescript.png',
+    imgUrl: '../assets/icons/typescript.png',
     siteUrl: 'https://www.typescriptlang.org/'
   },
   {
     id: 5,
     name: 'JavaScript',
-    imgUrl: '/src/assets/icons/javascript.png',
+    imgUrl: '../assets/icons/javascript.png',
     siteUrl: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
   },
   {
     id: 6,
     name: 'HTML',
-    imgUrl: '/src/assets/icons/html.png',
+    imgUrl: '../assets/icons/html.png',
     siteUrl: 'https://developer.mozilla.org/en-US/docs/Web/HTML'
   },
   {
     id: 7,
     name: 'CSS',
-    imgUrl: '/src/assets/icons/css.png',
+    imgUrl: '../assets/icons/css.png',
     siteUrl: 'https://developer.mozilla.org/en-US/docs/Web/CSS'
   },
   {
     id: 8,
     name: 'Bootstrap',
-    imgUrl: '/src/assets/icons/bootstrap.png',
+    imgUrl: '../assets/icons/bootstrap.png',
     siteUrl: 'https://getbootstrap.com/'
   },
   {
     id: 9,
     name: 'Tailwind',
-    imgUrl: './src/assets/icons/tailwind.png',
+    imgUrl: '../assets/icons/tailwind.png',
     siteUrl: 'https://tailwindcss.com/'
   },
   {
     id: 10,
     name: 'Express',
-    imgUrl: './src/assets/icons/express.png',
+    imgUrl: '../assets/icons/express.png',
     siteUrl: 'https://expressjs.com/'
   },
   {
     id: 11,
     name: 'Node.js',
-    imgUrl: '/src/assets/icons/node-js.png',
+    imgUrl: '../assets/icons/node-js.png',
     siteUrl: 'https://nodejs.org/en'
   },
   {
     id: 12,
     name: 'PostgreSQL',
-    imgUrl: '/src/assets/icons/postgresql.png',
+    imgUrl: '../assets/icons/postgresql.png',
     siteUrl: 'https://www.postgresql.org/'
   },
   {
     id: 13,
     name: 'Prisma',
-    imgUrl: '/src/assets/icons/prisma.png',
+    imgUrl: '../assets/icons/prisma.png',
     siteUrl: 'https://www.prisma.io/'
   },
   {
     id: 14,
     name: 'Azure',
-    imgUrl: '/src/assets/icons/azure.png',
+    imgUrl: '../assets/icons/azure.png',
     siteUrl: 'https://azure.microsoft.com/en-us'
   },
   {
     id: 15,
     name: 'NPM',
-    imgUrl: '/src/assets/icons/npm.png',
+    imgUrl: '../assets/icons/npm.png',
     siteUrl: 'https://www.npmjs.com/'
   },
   {
     id: 16,
     name: 'Webpack',
-    imgUrl: '/src/assets/icons/webpack.png',
+    imgUrl: '../assets/icons/webpack.png',
     siteUrl: 'https://webpack.js.org/'
   },
   {
     id: 17,
     name: 'Git',
-    imgUrl: '/src/assets/icons/git.png',
+    imgUrl: '../assets/icons/git.png',
     siteUrl: 'https://git-scm.com/'
   },
   {
     id: 18,
     name: 'Arduino',
-    imgUrl: '/src/assets/icons/arduino.png',
+    imgUrl: '../assets/icons/arduino.png',
     siteUrl: 'https://www.arduino.cc/'
   },
   {
     id: 19,
     name: 'Figma',
-    imgUrl: '/src/assets/icons/figma.png',
+    imgUrl: '../assets/icons/figma.png',
     siteUrl: 'https://www.figma.com/'
   }
 ]
