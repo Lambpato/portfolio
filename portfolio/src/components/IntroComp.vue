@@ -11,7 +11,11 @@ defineProps<{
     </header>
     <div class="grid lg:grid-cols-2 w-auto">
       <div>
-        <img src="./images/portait.jpeg" alt="Portait Picture" class="rounded-xl lg:w-9/12" />
+        <img
+          src="../assets/images/portait.jpeg"
+          alt="Portait Picture"
+          class="rounded-xl lg:w-9/12"
+        />
       </div>
       <div class="flex flex-col justify-evenly">
         <h1 class="text-5xl">Hey, I'm Lamberto Martinez!</h1>
