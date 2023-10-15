@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "run-p type-check build-only && tailwind",
+    "dev": "npm run tailwind && vite",
+    "build": "run-p type-check build-only && npm run tailwind",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit -p tsconfig.app.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "tailwind": "npx tailwindcss -i ./src/assets/input.css -o ./public/output.css"
+    "tailwind": "npx tailwindcss -i ./src/assets/input.css -o ./public/output.css --watch"
   },
   "dependencies": {
     "vue": "^3.3.4",
