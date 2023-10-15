@@ -1,7 +1,17 @@
 <script setup lang="ts">
+import router from '@/router'
+
 defineProps<{
   Section: string
 }>()
+
+const redirectToWebsite = (url: string) => {
+  window.open(url, '_blank')
+}
+
+const handleAbout = () => {
+  router.push({ path: '/about-me' })
+}
 </script>
 
 <template>
@@ -18,13 +28,34 @@ defineProps<{
         />
       </div>
       <div class="flex flex-col justify-evenly">
-        <h1 class="text-5xl">Hey, I'm Lamberto Martinez!</h1>
-        <p class="text-3xl">
-          I'm a Software Engineer highly skilled in various tools and languages! I love being able
-          to bring my code to life and seeing my friends and family put my projects to use. As
-          technology advances I make sure to stay on top of it and do my research which allows me to
-          stay up to date and apply it to my current code!
-        </p>
+        <div class="cursor-pointer flex flex-col gap-4" @click="handleAbout">
+          <h1 class="text-5xl">Hey, I'm Lamberto Martinez!</h1>
+          <p class="text-3xl">
+            I'm a Software Engineer highly skilled in various tools and languages! I love being able
+            to bring my code to life and seeing my friends and family put my projects to use. As
+            technology advances I make sure to stay on top of it and do my research which allows me
+            to stay up to date and apply it to my current code!
+          </p>
+        </div>
+
+        <div class="flex justify-around">
+          <div>
+            <button
+              class="border border-white p-2 rounded-lg"
+              @click="redirectToWebsite('https://www.linkedin.com/in/lambpato/')"
+            >
+              LinkedIn
+            </button>
+          </div>
+          <div>
+            <button
+              class="border border-white p-2 rounded-lg"
+              @click="redirectToWebsite('https://github.com/Lambpato')"
+            >
+              GitHub
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </div>

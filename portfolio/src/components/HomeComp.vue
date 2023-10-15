@@ -2,15 +2,14 @@
 import IntroComp from './IntroComp.vue'
 import SkillsComp from './SkillsComp.vue'
 import ProjectsComp from './ProjectsComp.vue'
-import router from '@/router'
-
-const handleAbout = () => {
-  router.push({ path: '/about-me' })
-}
+import QualificationsComp from './QualificationsComp.vue'
 </script>
 
 <template>
-  <IntroComp -section="Introduction" class="cursor-pointer" @click="handleAbout" />
-  <SkillsComp />
-  <ProjectsComp />
+  <div class="flex flex-col gap-20">
+    <IntroComp -section="Introduction" class="cursor-pointer" />
+    <SkillsComp />
+    <ProjectsComp />
+    <QualificationsComp />
+  </div>
 </template>
