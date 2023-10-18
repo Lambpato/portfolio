@@ -126,7 +126,7 @@ const redirectToWebsite = (url: string) => {
     <header class="p-4">
       <h1 class="text-center text-5xl lg:text-7xl">Skills</h1>
     </header>
-    <div id="icons" class="grid grid-cols-2 lg:grid-cols-4 gap-y-4">
+    <div id="icons" class="grid grid-cols-3 lg:grid-cols-4 gap-y-4">
       <div
         v-for="icon in icons"
         :key="icon.id"
@@ -134,7 +134,7 @@ const redirectToWebsite = (url: string) => {
         class="flex justify-center items-center"
       >
         <div
-          class="flex flex-col justify-center items-center w-2/4 lg:h-[160px] border-4 rounded-xl border-slate-200 cursor-pointer"
+          class="flex flex-col justify-center items-center lg:w-2/4 h-[160px] border-4 rounded-xl border-slate-200 cursor-pointer"
         >
           <img :src="icon.imgUrl" :alt="icon.name" class="w-24 p-4" />
           <h1 class="font-bold text-xs lg:text-lg">{{ icon.name }}</h1>
