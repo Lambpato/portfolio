@@ -29,8 +29,8 @@ const handleAbout = () => {
       </div>
       <div class="flex flex-col justify-evenly">
         <div class="cursor-pointer flex flex-col gap-4" @click="handleAbout">
-          <h1 class="text-5xl">Hey, I'm Lamberto Martinez!</h1>
-          <p class="text-3xl">
+          <h1 class="text-2xl lg:text-5xl">Hey, I'm Lamberto Martinez!</h1>
+          <p class="text-xl lg:text-3xl">
             I'm a Software Engineer highly skilled in various tools and languages! I love being able
             to bring my code to life and seeing my friends and family put my projects to use. As
             technology advances I make sure to stay on top of it and do my research which allows me
@@ -38,7 +38,7 @@ const handleAbout = () => {
           </p>
         </div>
 
-        <div class="flex justify-around">
+        <div class="flex justify-around p-5">
           <div>
             <button
               class="border border-white p-2 rounded-lg"
