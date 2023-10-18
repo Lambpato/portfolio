@@ -34,7 +34,7 @@ const projects = [
         class="flex justify-center items-center"
       >
         <div
-          class="flex flex-col items-center mt-0 w-11/12 lg:w-2/4 lg:h-[300px] border-4 rounded-xl border-slate-200 cursor-pointer"
+          class="flex flex-col items-center mt-0 w-11/12 lg:w-2/4 lg:h-[300px] border-4 rounded-xl border-slate-200 hover:bg-slate-600 cursor-pointer"
         >
           <img :src="project.thumbnail" :alt="project.name" class="w-auto rounded-lg" />
           <div class="m-auto text-center">

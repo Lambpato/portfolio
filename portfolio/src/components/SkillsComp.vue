@@ -134,7 +134,7 @@ const redirectToWebsite = (url: string) => {
         class="flex justify-center items-center"
       >
         <div
-          class="flex flex-col justify-center items-center lg:w-2/4 h-[160px] border-4 rounded-xl border-slate-200 cursor-pointer"
+          class="flex flex-col justify-center items-center lg:w-2/4 h-[160px] border-4 rounded-xl border-slate-200 hover:bg-slate-600 cursor-pointer"
         >
           <img :src="icon.imgUrl" :alt="icon.name" class="w-24 p-4" />
           <h1 class="font-bold text-xs lg:text-lg">{{ icon.name }}</h1>

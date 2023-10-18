@@ -24,11 +24,14 @@ const handleAbout = () => {
         <img
           src="../assets/images/portait.jpeg"
           alt="Portait Picture"
-          class="rounded-xl lg:w-9/12"
+          class="rounded-xl lg:w-7/12"
         />
       </div>
       <div class="flex flex-col justify-evenly">
-        <div class="cursor-pointer flex flex-col gap-4" @click="handleAbout">
+        <div
+          class="rounded-xl cursor-pointer flex flex-col gap-4 hover:bg-slate-600"
+          @click="handleAbout"
+        >
           <h1 class="text-2xl lg:text-5xl">Hey, I'm Lamberto Martinez!</h1>
           <p class="text-xl lg:text-3xl">
             I'm a Software Engineer highly skilled in various tools and languages! I love being able
@@ -41,7 +44,7 @@ const handleAbout = () => {
         <div class="flex justify-around p-5">
           <div>
             <button
-              class="border border-white p-2 rounded-lg"
+              class="border-2 border-white p-2 rounded-lg text-2xl hover:bg-slate-600"
               @click="redirectToWebsite('https://www.linkedin.com/in/lambpato/')"
             >
               LinkedIn
@@ -49,7 +52,7 @@ const handleAbout = () => {
           </div>
           <div>
             <button
-              class="border border-white p-2 rounded-lg"
+              class="border-2 border-white p-2 rounded-lg text-2xl hover:bg-slate-600"
               @click="redirectToWebsite('https://github.com/Lambpato')"
             >
               GitHub
