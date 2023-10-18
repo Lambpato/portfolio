@@ -7,11 +7,15 @@ const redirectToWebsite = (url: string) => {
 <template>
   <div class="cursor-pointer" @click="redirectToWebsite('https://learningfuze.com/')">
     <header class="p-4">
-      <h1 class="text-center text-7xl">Qualifications</h1>
+      <h1 class="text-center text-5xl lg:text-7xl">Qualifications</h1>
     </header>
     <div class="flex flex-col gap-10">
       <div class="flex gap-8">
-        <img src="../assets/images/LearningFuze.jpeg" alt="LearningFuze Logo" class="rounded-lg" />
+        <img
+          src="../assets/images/LearningFuze.jpeg"
+          alt="LearningFuze Logo"
+          class="rounded-lg w-[200px] h-[200px]"
+        />
         <div class="flex flex-col">
           <div>
             <h1 class="font-bold text-xl">LearningFuze</h1>

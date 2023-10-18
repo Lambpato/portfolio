@@ -17,7 +17,7 @@ const handleAbout = () => {
 <template>
   <div>
     <header class="p-4">
-      <h1 class="text-center text-7xl">{{ Section }}</h1>
+      <h1 class="text-center text-5xl lg:text-7xl">{{ Section }}</h1>
     </header>
     <div class="grid lg:grid-cols-2 w-auto">
       <div>

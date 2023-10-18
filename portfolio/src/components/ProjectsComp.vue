@@ -24,7 +24,7 @@ const projects = [
 <template>
   <div>
     <header class="p-4">
-      <h1 class="text-center text-7xl">Projects</h1>
+      <h1 class="text-center text-5xl lg:text-7xl">Projects</h1>
     </header>
     <div id="icons" class="grid grid-cols-2 lg:grid-cols-2 gap-y-4">
       <div

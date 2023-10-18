@@ -124,7 +124,7 @@ const redirectToWebsite = (url: string) => {
 <template>
   <div>
     <header class="p-4">
-      <h1 class="text-center text-7xl">Skills</h1>
+      <h1 class="text-center text-5xl lg:text-7xl">Skills</h1>
     </header>
     <div id="icons" class="grid grid-cols-2 lg:grid-cols-4 gap-y-4">
       <div
