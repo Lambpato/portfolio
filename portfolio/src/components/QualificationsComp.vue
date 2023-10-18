@@ -14,7 +14,7 @@ const redirectToWebsite = (url: string) => {
         <img
           src="../assets/images/LearningFuze.jpeg"
           alt="LearningFuze Logo"
-          class="rounded-lg w-[200px] h-[200px]"
+          class="rounded-lg w-[100px] h-[100px] lg:w-[200px] lg:h-[200px]"
         />
         <div class="flex flex-col">
           <div>
@@ -41,7 +41,7 @@ const redirectToWebsite = (url: string) => {
         <img
           src="../assets/images/Robert.jpeg"
           alt="Robert"
-          class="rounded-lg w-[200px] h-[200px]"
+          class="rounded-lg w-[100px] h-[100px] lg:w-[200px] lg:h-[200px]"
         />
         <div class="flex flex-col gap-4">
           <div>
