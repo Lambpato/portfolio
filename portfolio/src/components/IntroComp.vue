@@ -33,7 +33,7 @@ const handleAbout = () => {
           @click="handleAbout"
         >
           <h1 class="text-2xl lg:text-5xl">Hey, I'm Lamberto Martinez!</h1>
-          <p class="text-xl lg:text-3xl">
+          <p class="text-xl lg:text-2xl">
             I'm a Software Engineer highly skilled in various tools and languages! I love being able
             to bring my code to life and seeing my friends and family put my projects to use. As
             technology advances I make sure to stay on top of it and do my research which allows me
@@ -41,13 +41,22 @@ const handleAbout = () => {
           </p>
         </div>
 
-        <div class="flex justify-around p-5">
+        <div class="flex justify-around items-center p-3">
           <div>
             <button
               class="border-2 border-white p-2 rounded-lg text-2xl hover:bg-slate-600"
               @click="redirectToWebsite('https://www.linkedin.com/in/lambpato/')"
             >
               LinkedIn
+            </button>
+          </div>
+          <div class="flex justify-center">
+            <button
+              id="border"
+              class="border-2 border-white bg-white p-3 rounded-lg text-3xl text-slate-900 hover:bg-slate-600"
+              @click="redirectToWebsite('/resume.pdf')"
+            >
+              Resume
             </button>
           </div>
           <div>
