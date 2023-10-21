@@ -3,5 +3,7 @@ import WRComp from '@/components/WRComp.vue'
 </script>
 
 <template>
-  <div><WRComp /></div>
+  <main>
+    <WRComp />
+  </main>
 </template>

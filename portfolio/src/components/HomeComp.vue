@@ -7,7 +7,7 @@ import QualificationsComp from './QualificationsComp.vue'
 
 <template>
   <div class="flex flex-col gap-20">
-    <IntroComp -section="Introduction" class="cursor-pointer" />
+    <IntroComp -section="Introduction" />
     <SkillsComp />
     <ProjectsComp />
     <QualificationsComp />

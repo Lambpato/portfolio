@@ -3,5 +3,7 @@ import AboutComp from '@/components/AboutComp.vue'
 </script>
 
 <template>
-  <div><AboutComp /></div>
+  <main>
+    <AboutComp />
+  </main>
 </template>

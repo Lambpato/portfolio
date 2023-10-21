@@ -3,5 +3,7 @@ import LSPComp from '@/components/LSPComp.vue'
 </script>
 
 <template>
-  <div><LSPComp /></div>
+  <main>
+    <LSPComp />
+  </main>
 </template>
