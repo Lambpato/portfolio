@@ -19,7 +19,7 @@ const handleAbout = () => {
     <header class="p-4">
       <h1 class="text-center text-5xl lg:text-7xl">{{ Section }}</h1>
     </header>
-    <div class="grid lg:grid-cols-2 w-auto">
+    <div class="grid lg:grid-cols-2 w-auto align-middle">
       <div>
         <img
           src="../assets/images/portait.jpeg"
@@ -53,7 +53,7 @@ const handleAbout = () => {
           <div class="flex justify-center">
             <button
               id="border"
-              class="border-2 border-white bg-white p-3 rounded-lg text-3xl text-slate-900 hover:bg-slate-600"
+              class="border-2 border-white bg-white p-3 rounded-lg text-3xl text-slate-900 hover:bg-slate-600 hover:text-white"
               @click="redirectToWebsite('/resume.pdf')"
             >
               Resume
