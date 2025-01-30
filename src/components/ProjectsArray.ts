@@ -1,9 +1,15 @@
 export const projects = [
-{
+  {
     id: 1,
-    name: 'LSP',
-    thumbnail: '/thumbnails/lsp.png',
-    href: '/projects/LSP'
+    name: 'ChatGPTStyler',
+    thumbnail: '/thumbnails/chatGPTStyler.png',
+    href: '/projects/ChatGPTStyler'
+  },
+  {
+    id: 3,
+    name: 'ChatGPTStylerFE',
+    thumbnail: '/thumbnails/chatGPTStylerFE.png',
+    href: '/projects/ChatGPTStylerFE'
   },
   {
     id: 2,
