@@ -31,27 +31,37 @@ import { RouterLink } from 'vue-router'
           <h1 class="text-3xl">Links!</h1>
           <p>
             <span class="text-xl">Live Link:</span>
-            <a href="https://lambpato.github.io/weather-report/" target="_blank" class="text-xl">
-              https://lambpato.github.io/weather-report/</a
+            <a
+              href="https://github.com/Lambpato/weather-report-next.js"
+              target="_blank"
+              class="text-xl"
+            >
+              https://github.com/Lambpato/weather-report-next.js</a
             >
           </p>
           <p>
             <span class="text-xl">GitHub:</span>
-            <a href="https://github.com/Lambpato/weather-report" target="_blank" class="text-xl">
-              https://github.com/Lambpato/weather-report</a
+            <a
+              href="https://weather-report-dun.vercel.app/forecast"
+              target="_blank"
+              class="text-xl"
+            >
+              https://weather-report-dun.vercel.app/forecast</a
             >
           </p>
         </div>
         <div class="flex flex-col gap-1">
           <h1 class="text-3xl">Tools and Technologies!</h1>
-          <p class="text-xl">HTML, CSS, JavaScript, Ajax, and JSON</p>
+          <p class="text-xl">Next, Typescript, Tailwind, Fetch, and Vercel</p>
         </div>
       </div>
       <div>
         <h1 class="text-3xl">About</h1>
         <p class="text-xl">
-          A dynamic HTML, CSS, and JavaScript solo project which allows users to view the weather as
-          well as additional forecast and allows users to add or delete a location.
+          A dynamic web application built using Next.js, Tailwind, and TypeScript that provides
+          users with real-time weather information, including hourly and daily forecasts. Users can
+          view current weather alerts, check sunrise and sunset times, and add or delete locations
+          as needed.
         </p>
       </div>
     </div>

@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutMe from '../views/AboutMe.vue'
-import LSPView from '../views/LSPView.vue'
+import ChatGPTStylerView from '../views/ChatGPTStylerView.vue'
+import ChatGPTStylerFEView from '@/components/ChatGPTStylerFE.vue'
 import WRView from '../views/WRView.vue'
 
 const router = createRouter({
@@ -18,10 +19,16 @@ const router = createRouter({
       component: AboutMe
     },
     {
-      path: '/projects/LSP',
-      name: 'LSP',
-      component: LSPView
+      path: '/projects/chatGPTStyler',
+      name: 'chatGPTStyler',
+      component: ChatGPTStylerView
     },
+    {
+      path: '/projects/chatGPTStylerFE',
+      name: 'chatGPTStylerFE',
+      component: ChatGPTStylerFEView
+    },
+
     {
       path: '/projects/weather-report',
       name: 'Weather Report',
