@@ -15,7 +15,7 @@ const handleAbout = () => {
 </script>
 
 <template>
-  <div>
+  <section>
     <header class="p-4">
       <h1 class="text-center text-5xl lg:text-7xl">{{ Section }}</h1>
     </header>
@@ -70,5 +70,5 @@ const handleAbout = () => {
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>

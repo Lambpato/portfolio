@@ -8,7 +8,7 @@ import { projects } from './ProjectsArray'
 </script>
 
 <template>
-  <div>
+  <section>
     <header class="p-4">
       <h1 class="text-center text-5xl lg:text-7xl">Projects</h1>
     </header>
@@ -26,5 +26,5 @@ import { projects } from './ProjectsArray'
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
