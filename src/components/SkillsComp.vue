@@ -7,7 +7,7 @@ const redirectToWebsite = (url: string) => {
 </script>
 
 <template>
-  <div>
+  <section>
     <header class="p-4">
       <h1 class="text-center text-5xl lg:text-7xl">Skills</h1>
     </header>
@@ -22,5 +22,5 @@ const redirectToWebsite = (url: string) => {
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
