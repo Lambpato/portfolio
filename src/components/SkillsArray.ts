@@ -68,7 +68,7 @@ export const icons = [
   {
     id: 12,
     name: 'Node.js',
-    imgUrl: '/icons/node-js.png',
+    imgUrl: '/icons/-js.png',
     siteUrl: 'https://nodejs.org/en'
   },
   {
